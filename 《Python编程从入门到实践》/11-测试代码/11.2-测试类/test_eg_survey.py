@@ -3,7 +3,7 @@
 import unittest
 from eg_survey import AnonymousSurvey
 
-class TestAnonymousSurvey(unittest.TestCase):
+class TestAnonymousSurveyTestCase(unittest.TestCase):
 
     """针对AnonymousSurvey类的测试"""
 
