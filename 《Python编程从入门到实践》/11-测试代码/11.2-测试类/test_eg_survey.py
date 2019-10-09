@@ -1,7 +1,7 @@
 #coding = utf-8
 
 import unittest
-from survey import AnonymousSurvey
+from eg_survey import AnonymousSurvey
 
 class TestAnonymousSurvey(unittest.TestCase):
 
