@@ -1,0 +1,4 @@
+In Python you can read a file
+In Python you can do the math
+In Python you can handle the file as easy as you can
+ 
