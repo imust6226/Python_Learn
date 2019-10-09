@@ -3,7 +3,7 @@
 import unittest
 from work_employee import Employee
 
-class TestEmployee(unittest.TestCase):
+class TestEmployeeTestCase(unittest.TestCase):
     
     def setUp(self):
         """创建setUp()方法"""
