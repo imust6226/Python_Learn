@@ -4,8 +4,9 @@ import json
 
 class RememberMe(object):
 
-    def __init__(self):
+    def __init__(self， name):
         self.filePath = 'username.json'
+        self.name = name
 
     def get_stored_username(self):
         """如果储存有用户名，就读取出来"""
@@ -35,14 +36,15 @@ class RememberMe(object):
     def greet_user(self):
         """问候用户名"""
         username = self.get_stored_username()
-        if username == 'Lcuy':
+        if username == self.name:
             print("Welcome back, " + username + "!")
         else:
+            print("Sorry, I don't recongize you " + username + "Let me know your name,please.\n")
             username = self.get_new_username()
             print("We'll remember you when you come back, " + username + "!")
                 
             
-rememberme = RememberMe()
+rememberme = RememberMe('Lcuy')
 rememberme.greet_user()
 
 
