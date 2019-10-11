@@ -4,9 +4,11 @@ from random import randint
 
 class Die():
     def __init__(self, side = 6):
+        """初始化，属性值默认为6"""
         self.side = side
 
     def roll_die(self):
+        """设置一个num来计数，到了10就停止循环"""
         num = 1
         while num <=10:
             read_num = randint(1, self.side)
