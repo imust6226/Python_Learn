@@ -18,11 +18,15 @@ def book_seat():
 
 def even_or_odd():
     num = input("Give a number,I'll tell you if this can be division by ten with nothing left.")
-    num = int(num)
-    if num % 10 ==0:
-        print("Sucessful")
-    else :
-        print("Failure")
+    try:
+        num = int(num)
+    except ValueError:
+        print("Error Taking Off")
+    else:
+        if num % 10 ==0:
+            print("Sucessful")
+        else :
+            print("Failure")
 #rent_car()
 #book_seat()
 even_or_odd()
