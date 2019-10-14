@@ -20,7 +20,7 @@ print (user_profile1)
 
 others = {'sex':'female', 'age':28, 'hobby':'Love to Sing!'}
 
-#任意数量的关键字实参需要指定变量名哟，最好有意义，能够读明白是指的什么意思
+#任意数量的关键字实参需要指定变量名哟，最好有意义，能够读明白是指的什么意思，这个样子不行。
 user_profile2 = build_profile('lcuy', 'mark', user_info = others)
 print(user_profile2)
 
