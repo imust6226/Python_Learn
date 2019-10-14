@@ -10,7 +10,7 @@ readme.md</br>
   注意事项：关键字实参的时候，等号两侧不要有空格</br>
   
   函数的形参较多的时候，注意使用tab键保持格式统一</br>
-  def function_name(
-      parameter1,parameter2,parameter3,
-      parameter4,parameter5='value5'):
+  def function_name(                                                                   </br>
+      parameter1,parameter2,parameter3,                                                </br>     
+      parameter4,parameter5='value5'):                                                 </br>
   
